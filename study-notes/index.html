@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>学习笔记</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//unpkg.com/docsify@4/lib/themes/vue.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <nav>
+        <a href="http://notes.xiyankt.com">笔记备用地址</a>
+        <a href="http://vue.xiyankt.com">夕颜博客</a>
+        <a href="https://gitee.com/bright-boy/technical-notes/tree/master/study-notes">夕颜技术笔记git地址</a>
+        <a href="https://gitee.com/bright-boy/xiyan-blog">夕颜博客源码</a>
+        <a href="https://bright-boy.gitee.io/xiyan-blog-deployment-document">夕颜博客部署文档</a>
+        <a href="https://blog.csdn.net/qq_40942490">博主CSDN</a>
+      <!--  <select id="select" onchange="select()">
+            <option value="1">vue主题</option>
+            <option value="2">dark主题</option>
+            <option value="3">buble主题</option>
+            <option value="4">pure主题</option>
+            <option value="5">dolphin主题</option>
+        </select>-->
+    </nav>
+    <div id="app"></div>
+    <script>
+        window.$docsify = {
+            name: '学习笔记',
+            repo: 'https://github.com/694475668/xiyan-blog',
+            coverpage: true,
+            onlyCover: true,
+            subMaxLevel: 2,
+            search: {
+                // 支持本地化
+                placeholder: {
+                    '/': '搜索',
+                },
+            },
+            loadSidebar: true,
+            disqus: 'shortname',
+            count: {
+                countable: true,
+                fontsize: '0.9em',
+                color: 'rgb(90,90,90)',
+                language: 'chinese'
+            }
+
+        }
+
+        /*function select() {
+            if (document.getElementById("select").value == 1) {
+                const oScript = document.createElement("link");
+                oScript.rel = "stylesheet";
+                oScript.href = "//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css";
+                document.body.appendChild(oScript);
+            } else if (document.getElementById("select").value == 2) {
+                const oScript = document.createElement("link");
+                oScript.rel = "stylesheet";
+                oScript.href = "//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css";
+                document.body.appendChild(oScript);
+            } else if (document.getElementById("select").value == 3) {
+                const oScript = document.createElement("link");
+                oScript.rel = "stylesheet";
+                oScript.href = "//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css";
+                document.body.appendChild(oScript);
+            } else if (document.getElementById("select").value == 4) {
+                const oScript = document.createElement("link");
+                oScript.rel = "stylesheet";
+                oScript.href = "//cdn.jsdelivr.net/npm/docsify/lib/themes/pure.css";
+                document.body.appendChild(oScript);
+            } else if (document.getElementById("select").value == 5) {
+                const oScript = document.createElement("link");
+                oScript.rel = "stylesheet";
+                oScript.href = "//cdn.jsdelivr.net/npm/docsify/lib/themes/dolphin.css";
+                document.body.appendChild(oScript);
+            }
+        }*/
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <script src="//unpkg.com/docsify@4"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/external-script.min.js"></script>
+    <script src="//unpkg.com/docsify-copy-code"></script>
+    <!-- 字数统计 -->
+    <!--<script src="//unpkg.com/docsify-count/dist/countable.js"></script>-->
+
+    <!-- 代码高亮 -->
+    <script src="//unpkg.com/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="//unpkg.com/prismjs@1/components/prism-php.min.js"></script>
+
+    <!-- 评论插件 -->
+   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+    <script>
+        var gitalk = new Gitalk({
+            clientID: 'a79e3dc1405c864539b2', //clientID 
+            clientSecret: 'fdc8896eedf3d87dd72b24992500805a93e6bc3c', //clientSecret
+            repo: 'xiyan-comments', // 评论仓库名
+            owner: '694475668', // 你的git名字，通过名字找到xiyan-comments仓库  类型于https://github.com/694475668/xiyan-comments.git
+            admin: ['bright'], //管理人
+            language: 'zh-CN', //语言
+            distractionFreeMode: false // 无干扰模式
+        })
+        gitalk.render('gitalk-container')
+    </script>-->
+</body>
+
+</html>
