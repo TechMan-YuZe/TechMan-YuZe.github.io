@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "PingFang SC Bold";
+    src: url(../Fonts/PingFang-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Dorid Sans Fallback";
+    src: url(../Fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SF Mono SC";
+    src: url(../Fonts/SFMonoSC-Regular.ttf);
+    font-weight: 100;
+}

@@ -7,14 +7,13 @@
   - [Java 并发编程](java面试突击训练/concurrent.md)
 - Java 虚拟机
   - [JVM](java面试突击训练/jvm.md)
-- 设计模式
-  - [23种设计模式](设计模式/index.md)
+
 - 网络编程
-  - [socket基础](网络编程/socket.md)
-  - [黑马Netty](网络编程/netty.md)
-  - [尚硅谷Netty](网络编程/尚硅谷Netty.md)
+  - [Socket 基础](网络编程/socket.md)
+  - [Netty](网络编程/尚硅谷Netty.md)
+  <!-- - [尚硅谷Netty](网络编程/尚硅谷Netty.md) -->
 - MyBatis
-  - [Mybatis入门到精通](持久化框架/mybatis.md) 
+  - [MyBatis 入门到精通](持久化框架/mybatis.md) 
 - MyBatis-Plus
   - [MyBatis-Plus入门到精通](持久化框架/mybatis-plus.md)  
 - Spring Boot
@@ -37,11 +36,13 @@
   - [RocketMQ 入门到精通](rocketmq/index.md)
 - 分布式锁 
   - [分布式锁解决方案](分布式锁/index.md)
-- kubernetes（K8S）
-  - [K8S 由浅入深](k8s/k8s.md)
+- 设计模式
+  - [23 种设计模式](设计模式/index.md)
 - Docker入门到进阶
   - [Docker 入门](docker/docker.md)
   - [Docker 进阶](docker/advanced.md)
+- kubernetes（K8S）
+  - [K8S 由浅入深](k8s/k8s.md)
 - DevOps
   - [CentOS7（Linux）下配置frp进行内网穿透](其它/CentOS7下配置frp进行内网穿透.md) 
   - [Docker 构建企业级 Maven 私服](其它/Docker构建企业级Maven私服.md) 
@@ -76,4 +77,3 @@
   - [Arthas生产故障排查](jvm/arthas.md) -->
   <!-- - JAVA爬虫
   - [JAVA爬虫基础到进阶](java/java爬虫.md) -->
-
