@@ -1,20 +1,20 @@
 - JAVA
-  - [Java基础到进阶](java/java.md)
-  - [Java IO流](java/io.md)
-  - [Java8新特性](java/java8.md)
-  - [Java11新特性](java/java11.md)
-- JAVA爬虫
-  - [JAVA爬虫基础到进阶](java/java爬虫.md)
-- java面试突击训练
-  - [JUC多线程及高并发](java面试突击训练/concurrent.md)
-  - [JVM 面试](java面试突击训练/jvm.md)
+  - [Java 基础到进阶](java/java.md)
+  - [Java IO 流](java/io.md)
+  - [Java 8 新特性](java/java8.md)
+  - [Java11 新特性](java/java11.md)
+<!-- - JAVA爬虫
+  - [JAVA爬虫基础到进阶](java/java爬虫.md) -->
+- Java 并发编程
+  - [Java 并发编程](java面试突击训练/concurrent.md)
+- Java 虚拟机
+  - [JVM](java面试突击训练/jvm.md)
 - 设计模式
   - [23种设计模式](设计模式/index.md)
 - 网络编程
   - [socket基础](网络编程/socket.md)
   - [黑马Netty](网络编程/netty.md)
   - [尚硅谷Netty](网络编程/尚硅谷Netty.md)
- 
 - MyBatis
   - [Mybatis入门到精通](持久化框架/mybatis.md) 
 - MyBatis-Plus
@@ -28,8 +28,8 @@
 - JVM
   - [Arthas生产故障排查](jvm/arthas.md)
 - MySQL
-  - [MySQL基础](mysql/mysql.md)
-  - [MySQL性能优化](mysql/mysql性能优化.md)
+  - [MySQL 基础](mysql/mysql.md)
+  - [MySQL 性能优化](mysql/mysql性能优化.md)
 - Redis
   - [Redis入门到精通](redis/index.md)
 - Kafka
@@ -61,8 +61,8 @@
 - Nuxt
   - [Nuxt由浅入深](nuxt/nuxt.md)
 - Docker入门到进阶
-  - [Docker入门](docker/docker.md)
-  - [Docker进阶](docker/advanced.md)
+  - [Docker 入门](docker/docker.md)
+  - [Docker 进阶](docker/advanced.md)
 - 其它
   - [CentOS7（Linux）下配置frp进行内网穿透](其它/CentOS7下配置frp进行内网穿透.md) 
   - [Docker构建企业级Maven私服](其它/Docker构建企业级Maven私服.md) 
