@@ -25,8 +25,8 @@
   - [Spring Cloud入门到精通](java/SpringCloud.md)
 - Spring Cloud Alibaba
   - [Spring Cloud Alibaba入门到精通](java/SpringCloudAlibaba.md)
-- JVM
-  - [Arthas生产故障排查](jvm/arthas.md)
+<!-- - JVM
+  - [Arthas生产故障排查](jvm/arthas.md) -->
 - MySQL
   - [MySQL 基础](mysql/mysql.md)
   - [MySQL 性能优化](mysql/mysql性能优化.md)
@@ -42,6 +42,20 @@
   - [分布式锁解决方案](分布式锁/index.md)
 - kubernetes（K8S）
   - [K8S由浅入深](k8s/k8s.md)
+- Docker入门到进阶
+  - [Docker 入门](docker/docker.md)
+  - [Docker 进阶](docker/advanced.md)
+- DevOps
+  - [CentOS7（Linux）下配置frp进行内网穿透](其它/CentOS7下配置frp进行内网穿透.md) 
+  - [Docker构建企业级Maven私服](其它/Docker构建企业级Maven私服.md) 
+  - [Docker构建企业级GitLab](其它/Docker构建企业级GitLab.md) 
+  - [Docker构建企业级wiki破解版confluence](其它/Docker构建企业级wiki破解版confluence.md) 
+  - [Docker安装Elasticsearch](其它/Docker安装Elasticsearch.md) 
+  - [ELK+Filebeat+Kafka日志采集](其它/ELK+Filebeat+Kafka日志采集.md) 
+  - [Git合集](其它/git.md) 
+  - [Jenkins实现自动化CI,CD部署](其它/Jenkins.md) 
+  - [搭建GitHub图床](其它/图床.md) 
+  - [Ubuntu系统安装nginx](其它/ubuntu安装nginx.md) 
 - Vue2
   - [Vue2快速入门](vue/vue.md)
 - Vue3
@@ -60,18 +74,4 @@
   - [uni-app商城项目实战](uniapp/商城.md)
 - Nuxt
   - [Nuxt由浅入深](nuxt/nuxt.md)
-- Docker入门到进阶
-  - [Docker 入门](docker/docker.md)
-  - [Docker 进阶](docker/advanced.md)
-- 其它
-  - [CentOS7（Linux）下配置frp进行内网穿透](其它/CentOS7下配置frp进行内网穿透.md) 
-  - [Docker构建企业级Maven私服](其它/Docker构建企业级Maven私服.md) 
-  - [Docker构建企业级GitLab](其它/Docker构建企业级GitLab.md) 
-  - [Docker构建企业级wiki破解版confluence](其它/Docker构建企业级wiki破解版confluence.md) 
-  - [Docker安装Elasticsearch](其它/Docker安装Elasticsearch.md) 
-  - [ELK+Filebeat+Kafka日志采集](其它/ELK+Filebeat+Kafka日志采集.md) 
-  - [Git合集](其它/git.md) 
-  - [Jenkins实现自动化CI,CD部署](其它/Jenkins.md) 
-  - [搭建GitHub图床](其它/图床.md) 
-  - [Ubuntu系统安装nginx](其它/ubuntu安装nginx.md) 
 
