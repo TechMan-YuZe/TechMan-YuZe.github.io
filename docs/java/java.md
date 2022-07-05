@@ -1,5 +1,5 @@
 #
-# 初始java
+# 初始Java
 
 ## Java : 一个帝国的诞生
 
@@ -3171,12 +3171,12 @@ java.util.Arrays 类能方便地操作数组. 使用之前需要导包！
 
 具体说明请查看下表：
 
-| 序号 | 方法和说明                                                   |
-| :--- | :----------------------------------------------------------- |
-| 1    | **public static int binarySearch(Object[] a, Object key)** 用二分查找算法在给定数组中搜索给定值的对象(Byte,Int,double等)。数组在调用前必须排序好的。如果查找值包含在数组中，则返回搜索键的索引；否则返回 (-(*插入点*) - 1)。 |
+| 序号 | 方法和说明                                                                                                                                                                                                                                                                                                                                      |
+| :--- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | **public static int binarySearch(Object[] a, Object key)** 用二分查找算法在给定数组中搜索给定值的对象(Byte,Int,double等)。数组在调用前必须排序好的。如果查找值包含在数组中，则返回搜索键的索引；否则返回 (-(*插入点*) - 1)。                                                                                                                    |
 | 2    | **public static boolean equals(long[] a, long[] a2)** 如果两个指定的 long 型数组彼此*相等*，则返回 true。如果两个数组包含相同数量的元素，并且两个数组中的所有相应元素对都是相等的，则认为这两个数组是相等的。换句话说，如果两个数组以相同顺序包含相同的元素，则两个数组是相等的。同样的方法适用于所有的其他基本数据类型（Byte，short，Int等）。 |
-| 3    | **public static void fill(int[] a, int val)** 将指定的 int 值分配给指定 int 型数组指定范围中的每个元素。同样的方法适用于所有的其他基本数据类型（Byte，short，Int等）。 |
-| 4    | **public static void sort(Object[] a)** 对指定对象数组根据其元素的自然顺序进行升序排列。同样的方法适用于所有的其他基本数据类型（Byte，short，Int等）。 |
+| 3    | **public static void fill(int[] a, int val)** 将指定的 int 值分配给指定 int 型数组指定范围中的每个元素。同样的方法适用于所有的其他基本数据类型（Byte，short，Int等）。                                                                                                                                                                          |
+| 4    | **public static void sort(Object[] a)** 对指定对象数组根据其元素的自然顺序进行升序排列。同样的方法适用于所有的其他基本数据类型（Byte，short，Int等）。                                                                                                                                                                                          |
 
 来源[菜鸟教程](https://www.runoob.com/java/java-array.html)，一个编程的基础技术教程网站，适合初学者查看资料，我PHP基础就是在这里学的。
 
@@ -7360,17 +7360,17 @@ Date(long millisec)
 
 Date对象创建以后，可以调用下面的方法。
 
-| 序号 | 方法和描述                                                   |
-| :--- | :----------------------------------------------------------- |
-| 1    | **boolean after(Date date)** 若当调用此方法的Date对象在指定日期之后返回true,否则返回false。 |
-| 2    | **boolean before(Date date)** 若当调用此方法的Date对象在指定日期之前返回true,否则返回false。 |
-| 3    | **Object clone( )** 返回此对象的副本。                       |
-| 4    | **int compareTo(Date date)** 比较当调用此方法的Date对象和指定日期。两者相等时候返回0。调用对象在指定日期之前则返回负数。调用对象在指定日期之后则返回正数。 |
-| 5    | **int compareTo(Object obj)** 若obj是Date类型则操作等同于compareTo(Date) 。否则它抛出ClassCastException。 |
-| 6    | **boolean equals(Object date)** 当调用此方法的Date对象和指定日期相等时候返回true,否则返回false。 |
-| 7    | **long getTime( )** 返回自 1970 年 1 月 1 日 00:00:00 GMT 以来此 Date 对象表示的毫秒数。 |
-| 8    | **int hashCode( )**  返回此对象的哈希码值。                  |
-| 9    | **void setTime(long time)**   用自1970年1月1日00:00:00 GMT以后time毫秒数设置时间和日期。 |
+| 序号 | 方法和描述                                                                                                                                                    |
+| :--- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1    | **boolean after(Date date)** 若当调用此方法的Date对象在指定日期之后返回true,否则返回false。                                                                   |
+| 2    | **boolean before(Date date)** 若当调用此方法的Date对象在指定日期之前返回true,否则返回false。                                                                  |
+| 3    | **Object clone( )** 返回此对象的副本。                                                                                                                        |
+| 4    | **int compareTo(Date date)** 比较当调用此方法的Date对象和指定日期。两者相等时候返回0。调用对象在指定日期之前则返回负数。调用对象在指定日期之后则返回正数。    |
+| 5    | **int compareTo(Object obj)** 若obj是Date类型则操作等同于compareTo(Date) 。否则它抛出ClassCastException。                                                     |
+| 6    | **boolean equals(Object date)** 当调用此方法的Date对象和指定日期相等时候返回true,否则返回false。                                                              |
+| 7    | **long getTime( )** 返回自 1970 年 1 月 1 日 00:00:00 GMT 以来此 Date 对象表示的毫秒数。                                                                      |
+| 8    | **int hashCode( )**  返回此对象的哈希码值。                                                                                                                   |
+| 9    | **void setTime(long time)**   用自1970年1月1日00:00:00 GMT以后time毫秒数设置时间和日期。                                                                      |
 | 10   | **String toString( )** 把此 Date 对象转换为以下形式的 String： dow mon dd hh:mm:ss zzz yyyy 其中： dow 是一周中的某一天 (Sun, Mon, Tue, Wed, Thu, Fri, Sat)。 |
 
 【演示：获取当前日期时间】
@@ -17342,11 +17342,11 @@ ORM ：对象关系映射
 
 **people表**
 
-| id   | name    | age  | address |
-| ---- | ------- | ---- | ------- |
-| 1    | 秦疆1号 | 3    | 西安    |
-| 2    | 秦疆2号 | 18   | 西安    |
-| 3    | 秦疆3号 | 100  | 西安    |
+| id  | name    | age | address |
+| --- | ------- | --- | ------- |
+| 1   | 秦疆1号 | 3   | 西安    |
+| 2   | 秦疆2号 | 18  | 西安    |
+| 3   | 秦疆3号 | 100 | 西安    |
 
 ```java
 class People{
