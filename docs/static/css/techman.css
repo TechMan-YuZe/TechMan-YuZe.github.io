@@ -1,16 +1,35 @@
 @font-face {
     font-family: "PingFang SC Bold";
-    src: url(../Fonts/PingFang-Bold.ttf);
+    src: url(../fonts/PingFang-Bold.ttf);
 }
 
 @font-face {
     font-family: "Dorid Sans Fallback";
-    src: url(../Fonts/Roboto-Regular.ttf);
-    font-weight: 400;
+    src: url(../fonts/Roboto-Regular.ttf);
+
 }
 
 @font-face {
     font-family: "SF Mono SC";
-    src: url(../Fonts/SFMonoSC-Regular.ttf);
-    font-weight: 100;
+    src: url(../fonts/SFMonoSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Times";
+    src: url(../fonts/times.ttf);
+}
+
+@font-face {
+    font-family: "Times Bold";
+    src: url(../fonts/timesbd.ttf);
+}
+
+@font-face {
+    font-family: "Times Itali";
+    src: url(../fonts/timesi.ttf);
+}
+
+@font-face {
+    font-family: "Times Bold Itali";
+    src: url(../fonts/timesbi.ttf);
 }
