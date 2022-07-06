@@ -4,7 +4,7 @@
 
 # <h1 style="font-family: Times">TechMan-YuZe's Homepage</h1>
 
-## <p style="font-family: Times Itali">Code, Music, Photography & Basketball</p>
+## <p style="font-family: Times Itali">Coding, Music, Photography & Basketball</p>
 
 [GitHub](https://github.com/TechMan-YuZe/TechMan-YuZe.github.io)
 [Get Start](/start/)
